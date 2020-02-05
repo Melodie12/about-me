@@ -1,1 +1,48 @@
-Body
+ .melo {
+      color: rgb(37, 54, 46)
+    }
+   
+    body {
+      background-color:whitesmoke;
+    }
+    h1, h2, h3, h4 {
+        font-family: 'Indie Flower', cursive;
+        margin:0;
+        text-align: center 
+    }
+    h1 {font-size: 400% }
+    h2 {font-size: 250% }
+    p { font-family: 'Nunito', sans-serif;
+    margin: 0;
+     padding: 0;}
+
+       
+
+       
+    
+
+    #about {
+      background-color: #1ECAD0;
+    padding:100px 50px;
+    }
+
+    .roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    border-radius:200px;
+    width:130px;
+    height:130px;
+    float: left;
+      }
+
+    .flotte {float:left;}
+
+    #loves { background-color:#FDD860}
+
+    #travel{background-color: #FB7250;
+        margin: 0;
+
+    }
+
+    #contact {background-color: red}
