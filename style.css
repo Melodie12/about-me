@@ -1,104 +1,102 @@
 .melo {
       color: rgb(37, 54, 46)}
-      header,body,#titreloves,#loves,#travel,#contact,#footer { padding: 0px 0px; margin: 0px 
-}
-   
-   body {background-color:whitesmoke;}
-   h1, h2, h3, h4 { font-family: 'Indie Flower', cursive; margin:0;text-align: center  }
-   h1 {font-size: 400% }
-   h2 {font-size: 250% }
-   .lien {text-decoration: underline; color: white; font-size: 250%; font-family: 'Nunito', sans-serif; }
-   p { font-family: 'Nunito', sans-serif; margin: 0;padding: 0;}
-   .rouge{color: tomato;
-    margin: 0px 0px;}
     
-    .roundedImage {
+      
+ 
+
+   h1 { font-size: 80px; color:whitesmoke; font-family: 'Dancing Script', cursive; }
+   h2 {text-align: center;font-size: 72px; font-family: 'Dancing Script', cursive;} 
+   h3 {text-align: center; font-size: 30px; font-family: 'Dancing Script', cursive; color: #1e0411;}
+   h4 {text-align: center;}
+   p {font-family: 'Raleway', sans-serif; margin: 0;padding: 0 white}
+
+   .roundedImage {
     overflow:hidden;
     -webkit-border-radius:400px;
     -moz-border-radius:400px;
     border-radius:400px;
-    width:260px;
-    height:260px;
+    width:360px;
+    height:360px;
+    margin-top: -30px;
+    
+
+    
  }
-      .image2{
-     overflow:hidden;
-    -webkit-border-radius:200px;
+
+ .image2 { border-image: round white}
+
+ .image2{
+ overflow:hidden;
+    -webkit-border-radius:400px;
     -moz-border-radius:200px;
     border-radius:200px;
-    width:130px;
-    height:130px;
-    padding:50px;
- }
+    width:260px;
+    height:260px;
+    max-width: 100%;
+    max-height: 100%;
+    padding:10px;
     
-    #titreabout{background-color: #1ECAD0; padding:0 0}
-    #about{ background-color: #1ECAD0; padding:100px 150px;}
-
- 
-     
-    .flotte {float:left;}
-     
-
-    #titreloves { background-color: #FDD860; padding:40pX 100px;}
-    #titreloves2 { background-color: #FDD860; padding:5PX 5px; columns: 3; -webkit-columns: 3; column-gap: 100px;
-    }
-    #imagesloves {background-color: #FDD860; PADDING:5PX 5px; }
-    #textloves { background-color: #FDD860; padding:30px 80px;}
-
-    #loves { 
-    background-color:#FDD860; padding:30px 30px;
-    display: flex;}
-
-    .textloves { 
-    columns: 3;
-    -webkit-columns: 3;
-    }
-
-
   
-    
+}
 
-    #travel { 
-    background-image: url("https://raw.githubusercontent.com/Melodie12/about-me/master/image/lahavane.jpeg");
-     background-position: center;
-     background-size: 1500px 700px; 
-     background-repeat: no-repeat;
-     display: flex;
-     padding:200px 250px; }
 
-     .boutontravel {background: green
-        ; color:rgb(248, 248, 248);
-        border-radius: 12px;
-        padding: 12px 28px;
-        font-family: 'Nunito', sans-serif;
-        margin-left: auto;
-        margin-right:auto;
-       text-decoration: none;}
+   header {
+display:flex;
+flex-direction: column;
+height:300px; 
+background-repeat: no-repeat;
+background-size: cover; text-align: center; justify-content: center; ;
+      
+      background-image:url("https://s1.1zoom.me/b5050/612/Roses_Wine_color_549705_3840x2400.jpg")}
+   .roundedImage { display:block; margin-left:auto; margin-right:auto;}
+   #MeVoici { background-color: #771144 ; padding:150px 150px;font-family:'Raleway', sans-serif; font-size: 20px; }
+   .pres {color: rgb(248, 244, 245); justify-content: center; text-align: center; margin-left: 90px; margin-right: 90px; margin-top: 40px; }
+    #titreloves { background-color: #fdf0f6; padding:10px; color: #771144 }
+    #titreloves2 { background-color: #fdf0f6; padding:0px 50px; display: flex; justify-content: space-between; position: flex; line-height: 20px; }
+    #imagesloves {background-color: #fdf0f6; padding:10px; display: flex; }
+    #textloves { background-color: #fdf0f6; padding: 30px ; text-align: center; color:  #1e0411; font-size: 20px;}
+    #titredanse { background-color: #1e0411; padding:5px 5px; font-size: 28px; color: white;}
+    #contenudanse {background-color: #1e0411; padding: 20px; display: flex; justify-content: center; color: white; font-size: 18px; font-family:'Raleway', sans-serif}
+    #titrecontact { background-color:#0f0209 ; padding:5px 5px; font-size: 28px; color: white; text-align: center; font-family: 'Dancing Script', cursive;}
+    #mail { background-color:#0f0209; padding:10px; color:white; text-align: center; line-height: 300%; }
+    #icone{ background-color:#0f0209; padding: 10px 0px; text-align:center; display: flex; flex-direction: row; justify-content: space-around;}
+    .layercake {text-align: center; font-size: 25px; font-family: 'Dancing Script', cursive}
+    .lien {width:70% ; background-color:#1e0411; display: flex; flex-direction: column; text-align: left; padding: 20px; align-content: space-around; justify-content: space-around; text-decoration: cornsilk;}
+    .photodanseuse{width: 20%; justify-content: flex-start; background-color: #1e0411;}
+    .boutonecole {object-position: bottom;}
+     footer {padding: 65px; background-image: url(https://s1.1zoom.me/b5050/612/Roses_Wine_color_549705_3840x2400.jpg) 
+   } 
 
-    .boutontravel:hover {background: rgb(38, 160, 38);
-        color:whitesmoke;
+     .boutonecole {background:#771144
+        ; color: white;
         border-radius: 12px;
         padding: 12px 28px;
         font-family: 'Nunito', sans-serif;
         margin-left: auto;
         margin-right:auto;
        text-decoration: none;
-    }
-        
-     
-        
-    
+      border-spacing: 5px 1rem;}
 
-   #contact { background-color: red; padding:100px 50px;
-   }
+    .boutonecole:hover {background: #be387b;
+        color: white;
+        border-radius: 12px;
+        padding: 12px 28px;
+        font-family: 'Nunito', sans-serif;
+        margin-left: auto;
+        margin-right:auto;
+       text-decoration: none;
+       border-spacing: 5px 1rem;
+    }
 
     a.bouton {
-background:black; 
+background: #0f0209 ; 
 color: white; 
 }
 
 a.bouton:hover {
-background-color: aquamarine; 
-table-layout: auto;
+background-color: #0f0209; 
+color: #951555
+
 }
 
 }
