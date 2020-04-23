@@ -1,7 +1,17 @@
 .melo {
       color: rgb(37, 54, 46)}
     
+   
+
+   header {
+display:flex;
+flex-direction: column;
+width: 100%;
+height:300px; 
+background-repeat: no-repeat;
+background-size: cover; text-align: center; justify-content: center; 
       
+      background-image:url("https://s1.1zoom.me/b5050/612/Roses_Wine_color_549705_3840x2400.jpg")}   
  
 
    h1 { font-size: 80px; color:whitesmoke; font-family: 'Dancing Script', cursive; }
@@ -39,15 +49,6 @@
   
 }
 
-
-   header {
-display:flex;
-flex-direction: column;
-height:300px; 
-background-repeat: no-repeat;
-background-size: cover; text-align: center; justify-content: center; ;
-      
-      background-image:url("https://s1.1zoom.me/b5050/612/Roses_Wine_color_549705_3840x2400.jpg")}
    .roundedImage { display:block; margin-left:auto; margin-right:auto;}
    #MeVoici { background-color: #771144 ; padding:150px 150px;font-family:'Raleway', sans-serif; font-size: 20px; }
    .pres {color: rgb(248, 244, 245); justify-content: center; text-align: center; margin-left: 90px; margin-right: 90px; margin-top: 40px; }
